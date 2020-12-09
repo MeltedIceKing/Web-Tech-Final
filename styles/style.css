@@ -1,3 +1,6 @@
+h1 {
+    text-align: center;
+}
 div img {
     width: 20%;
     display: inline-block;
@@ -6,3 +9,48 @@ div img {
 div {
     font-size: 0px;
 }
+.viewArea {
+    width: 640px;
+    margin: auto;
+}
+.smallGrid {
+    display: grid;
+    grid-template-columns: 4fr 1fr 2fr;
+    grid-template-rows: 1fr;
+}
+.area1 {
+    text-align: center;
+    padding-left: 5%;
+}
+.inputArea {
+    display: inline;
+    text-align: center;
+    padding-left: 10%;
+}
+.area3 {
+    text-align: center;
+}
+
+@media screen and (max-width: 640px){
+    body {
+        text-align: center;
+    }
+    .viewArea {
+        width: 80%;
+        align-items: center;
+    }
+    .smallGrid {
+        display: inline-block;
+    }
+    .area1 {
+        padding-left: 0%;
+    }
+    .inputArea {
+        align-items: center;
+        display: block;
+        padding-left: 0%;
+    }
+    .area3 {
+        text-align: center;
+    }
+  }
