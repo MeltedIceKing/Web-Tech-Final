@@ -33,6 +33,7 @@ let clickedButton = () => {
     } else {
         alert('That is an invalid effect - try: blur')
     }
+    document.querySelector('#effect').value = ''
 };
 
 loopImages();
