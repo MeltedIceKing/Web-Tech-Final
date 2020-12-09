@@ -37,7 +37,6 @@ div {
     }
     .viewArea {
         width: 80%;
-        align-items: center;
     }
     .smallGrid {
         display: inline-block;
