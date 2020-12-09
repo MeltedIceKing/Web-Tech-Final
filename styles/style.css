@@ -17,6 +17,7 @@ div {
     display: grid;
     grid-template-columns: 4fr 1fr 2fr;
     grid-template-rows: 1fr;
+    padding-top: 2%;
 }
 .area1 {
     text-align: center;
@@ -29,6 +30,9 @@ div {
 }
 .area3 {
     text-align: center;
+}
+.displayed-img {
+    padding-top: 1%;
 }
 
 @media screen and (max-width: 640px){
@@ -51,5 +55,9 @@ div {
     }
     .area3 {
         text-align: center;
+    }
+    .displayed-img {
+        padding-top: 1%;
+        width: 100%;
     }
   }
